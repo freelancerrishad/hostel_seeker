@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+
+    background-image: url(../images/ownerlogin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.heading{
+    text-align: center;
+    color: rgb(48, 185, 156);
+   font-size: 50px;
+}
+.heading-border{
+    border-bottom: 2px dotted red;
+    width: 140px;
+    margin-left: 45%;
+    text-align: center;
+}
+.member-login{
+    margin-top: 15%;
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0,0.7);
+    height: 500px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 10px 5px 10px rgba(202, 146, 146, 0.3);
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+ 
+.member-login .login-form{
+    margin-top: 5%;
+    text-align: center;
+}
+.member-login .form-group{
+    color: white;
+    font-size: 40px;
+}
+.form-control{
+    margin-left: 10px;
+    height: 30px;
+    width: 300px;
+    border: 1px dotted black;
+    border-radius: 15px;
+}
+
+.btn{
+    background-color:rgba(9, 197, 65, 0.616);
+    border-radius: 15px;
+    color: rgb(0, 68, 255);
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    border: none;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: rgb(0, 119, 255);
+    color: rgb(245, 0, 0);
+}
+
+.messagehead{
+    color: royalblue;
+}
+
+.field_error{
+    color: skyblue;
+}

@@ -1,0 +1,160 @@
+.index{
+    color: red;
+    transition: all .7s;
+}
+.index:hover{
+    color: black;
+}
+.one{
+        padding-top: 10%;
+        box-sizing: border-box;
+        background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(153, 21, 124, 0.5)),
+        url('../images/hostelnamebackground.jpg');
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        height: 900px;
+        width: 100%;
+        text-align: center;
+        border-radius: 22px;
+    
+}
+.chosehostel{
+    font-size: 35px;
+    color: rgb(39, 204, 18);
+}
+.form-control{
+    background-color: rgb(9, 172, 77);
+    color: rgb(43, 43, 40);
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 15px;
+}
+.btn{
+    background-color: rgb(155, 189, 32);
+    color: rgb(44, 10, 235);
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.two{
+    padding-top: 10%;
+    box-sizing: border-box;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(153, 21, 124, 0.5)),
+    url('../images/hostel.jpg');
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 900px;
+    width: 100%;
+    text-align: center;
+    border-radius: 22px;
+}
+.sorry{
+    color: red;
+    font-size: 80px;
+}
+.hostel_name{
+    color: rgb(112, 230, 1);
+}
+.span{
+    color: wheat;
+}
+.noof{
+    font-size: 60px;
+    color: yellow;
+}
+.three{
+  
+    box-sizing: border-box;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(153, 21, 124, 0.5)),
+    url('../images/our_story.jpg');
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 900px;
+    width: 100%;
+    text-align: center;
+    border-radius: 22px;
+}
+
+#p1{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 8px;
+  }
+#div1{
+width: 800px;
+margin-left: 350px;
+margin-top: -20px;
+background-color: whitesmoke;
+padding-bottom: 30px;
+height: 610px;
+margin-bottom: 30px;
+
+}
+#chat{
+width: 600px;
+height: 50px;
+float: left;
+margin-left: 30px;
+margin-bottom: 30px;
+margin-top: 50px;
+font-size: 21px;
+}
+#sendbutton{
+float: left;
+margin-top: 50px;
+width: 150px;
+height: 55px;
+font-size: 25px;
+font-weight: bold;
+margin-left: 5px;
+}
+table{
+margin-left: 440px;
+}
+#td1{
+float: right;
+background-color: #0083fe;
+padding: 10px;
+color: white;
+border-radius: 20px;
+max-width: 230px;
+font-size: 19px;
+margin-top: 6px;
+}
+#div2{
+overflow: auto;
+width: 770px;
+height: 400px;
+padding: 10px;
+}
+
+.chor{
+    color: blue;
+}

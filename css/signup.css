@@ -1,0 +1,64 @@
+body{
+  text-align: center;
+  background-image: url(../images/registrar.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.home a{
+  color: #99FF99;
+  text-decoration: none;
+}
+.member_signup_container{
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  box-shadow: 10px 10px 10px rgba(255,255,255,0.3);
+  box-sizing: border-box;
+  color: #99FF99;
+}
+.member_signup_header{
+  color: #99CC00;
+  font-size: 30px;
+}
+.member_form{
+  padding: 10px;
+  margin: 10px;
+}
+.member_form div{
+  padding-bottom: 20px;
+}
+.member_form label{
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 900;
+}
+input{
+    background: none;
+    border: 1px double white;
+    border-radius: 12px;
+    padding-left: 10px;
+    width: 50%;
+}
+.member_form button{
+  height: 50px;
+  width: 300px;
+  font-size: 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+.member_form button:hover{
+  background-color: black;
+  color: white;
+}
+.already{
+  font-size: 20px;
+  padding: 20px;
+}
+.already a{
+  color: #00CCFF;
+}
